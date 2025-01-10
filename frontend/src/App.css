@@ -1,0 +1,117 @@
+/* Главный контейнер */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+
+.content-box {
+  max-width: 800px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Белая подложка */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень */
+  color: #333;
+}
+
+.hero-section h1, .info-section h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #222;
+}
+
+.hero-section p, .info-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ul, ol {
+  margin-left: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff; /* Синий цвет */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Темно-синий цвет */
+}
+
+.auth-section {
+  margin-top: 40px;
+}
+
+.form-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Белая подложка */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень */
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.toggle-button {
+  background-color: #007bff; /* Синий цвет */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3; /* Темно-синий цвет */
+}
+
+.upload-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Белая подложка */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень */
+  width: 90%;
+  max-width: 800px;
+  color: #333; /* Чёрный текст */
+}
+
+.upload-container label {
+  font-size: 16px;
+  color: #333; /* Чёрный текст */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

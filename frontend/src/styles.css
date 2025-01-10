@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  background: #f9fafb;
+  line-height: 1.8;
+}
+
+.app-container {
+  width: 100%;
+  /* Не используем display:flex для всего, чтобы элементы шли вертикально */
+}
+
+section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.hero-section, .info-section {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p,
+.info-section p,
+.info-section li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #3b82f6;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background: #2563eb;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+.auth-section {
+  max-width: 400px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+}
+
+/* Стили для формы */
+.form-container {
+  width: 100%;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+/* Кнопка для переключения между регистрацией и логином */
+.toggle-button {
+  background: #f3f4f6;
+  color: #1f2937;
+  border: none;
+}
+
+.toggle-button:hover {
+  background-color: #e5e7eb;
+}
+
+/* Кнопки формы регистрации/логина */
+.form-container button {
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3b82f6;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #2563eb;
+}
+
+/* Анимации AOS */
+[data-aos] {
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+[data-aos].aos-animate {
+  opacity: 1;
+}
+
+/* Можно добавить дополнительные стили при необходимости */
