@@ -25,7 +25,7 @@ Marketplace Product Image Generator — это веб-приложение, ко
 
 ### Шаги для установки
 1. Склонируйте репозиторий:
-   git clone https://github.com/your-username/marketplace-image-generator.git   cd marketplace-image-generator
+      git clone https://github.com/romacka/mpig.git   cd mpig
 
 
 2. Настройка backend:
